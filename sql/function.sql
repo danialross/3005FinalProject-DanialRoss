@@ -1,3 +1,7 @@
+/* updates the value of remain books in book table when its quantity drops belwo 20 and returns the new row */
+
+
+
 Create function addStock()
 	Returns trigger 
 	language PLPGSQL as
